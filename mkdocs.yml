@@ -1,0 +1,24 @@
+site_name: ML
+
+site_name: ML.jl
+
+site_description: Machine learning in Julia
+
+repo_url: https://github.com/johncsnyder/ML.jl
+
+pages:
+- [index.md, Index]
+- [ML.md, ML]
+
+
+extra_javascript: ['http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML']
+
+# markdown_extensions: [math]
+
+markdown_extensions: 
+    - math:
+        enable_dollar_delimiter: True #for use of inline $..$
+
+# theme: readthedocs
+theme: mkdocs
+
