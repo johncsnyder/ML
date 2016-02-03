@@ -1,0 +1,34 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "API-INDEX\n\n\nMODULE: ML\n\n\ncenter(K)\n  centering kernel matrices",
+            "title": "Index"
+        },
+        {
+            "location": "/#api-index",
+            "text": "",
+            "title": "API-INDEX"
+        },
+        {
+            "location": "/#module-ml",
+            "text": "center(K)   centering kernel matrices",
+            "title": "MODULE: ML"
+        },
+        {
+            "location": "/ML/",
+            "text": "ML\n\n\n\n\n\n\ncenter(K) \n\u00b6\n\n\ncentering kernel matrices\n\n\n\n\n\\varphi = \\frac{1}{n} \\sum_i \\varphi(x_i)\n\n\n\n\n\n\n\\tilde K_{ij} = (\\varphi(x_i) - \\tilde\\varphi)^T (\\varphi(x_j) - \\tilde\\varphi)\n\n\n\n\n\n\n\\tilde K_{ij} = K_{ij} - \\frac{1}{n} \\sum_j K_{ij} - \\frac{1}{n} \\sum_i K_{ji} + \\frac{1}{n^2} \\sum_{ij} K_{ij}\n\n\n\n\n\n\n\\tilde L_{ij} = L_{ij} - \\frac{1}{n} \\sum_j K_{ij} - \\frac{1}{n} \\sum_i L_{ji} + \\frac{1}{n^2} \\sum_{ij} K_{ij}\n\n\n\n\n\n\n\\tilde M_{ij} = M_{ij} - \\frac{1}{n} \\sum_j L_{ij} - \\frac{1}{n} \\sum_i L_{ji} + \\frac{1}{n^2} \\sum_{ij} M_{ij}\n\n\n\n\nsource:\n\n\nML/src/ML.jl:710",
+            "title": "ML"
+        },
+        {
+            "location": "/ML/#ml",
+            "text": "",
+            "title": "ML"
+        },
+        {
+            "location": "/ML/#centerk",
+            "text": "centering kernel matrices   \\varphi = \\frac{1}{n} \\sum_i \\varphi(x_i)    \\tilde K_{ij} = (\\varphi(x_i) - \\tilde\\varphi)^T (\\varphi(x_j) - \\tilde\\varphi)    \\tilde K_{ij} = K_{ij} - \\frac{1}{n} \\sum_j K_{ij} - \\frac{1}{n} \\sum_i K_{ji} + \\frac{1}{n^2} \\sum_{ij} K_{ij}    \\tilde L_{ij} = L_{ij} - \\frac{1}{n} \\sum_j K_{ij} - \\frac{1}{n} \\sum_i L_{ji} + \\frac{1}{n^2} \\sum_{ij} K_{ij}    \\tilde M_{ij} = M_{ij} - \\frac{1}{n} \\sum_j L_{ij} - \\frac{1}{n} \\sum_i L_{ji} + \\frac{1}{n^2} \\sum_{ij} M_{ij}   source:  ML/src/ML.jl:710",
+            "title": "center(K) \u00b6"
+        }
+    ]
+}
